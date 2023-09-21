@@ -25,16 +25,45 @@ body {
   border-radius: 10px;
 }
 
+#header-nav-ul {
+  display: flex;
+}
+
+#header-nav-li {
+  list-style-type: none;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
 
 a {
   text-decoration: none;
   color: black;
 }
+
 a:hover {
-  background-color: brown;
+  background-color:  rgb(147, 165, 42);
   border-radius: 10px;
 }
 
 #section-banner {
-  height: 30vh;
+  height: 50vh;
+  background-color: #f78ca2;
+  color: #000000;
+  padding-top: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#section-banner-card {
+  border-radius: 10px;
+  background-color: #d80032;
+  color: #f9dec9;
+  margin: 20px;
+  box-shadow: 15px 15px #3d0c11;
+}
+
+
+
